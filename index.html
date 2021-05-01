@@ -1,76 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+
     <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Run-Buddy</title>
+
+
 </head>
 <body>
+    <header>
+      <div>
+     <h1>RUN BUDDY </h1>
     
 
-    <!--navigation-->
-    <header>
-        <h1> 
-            <a style="color: blue; font-size: 50px;" href="/">RUN BUDDY</a>
-         </h1>
-     
-     <nav>
-        <!-- Unordered list element -->
-        <ul>
-          <!-- List item element-->
-          <li>
-            <!-- Anchor element -->
-            <a href="#what-we-do">What We Do</a>
-          </li>
-          <li>
-            <a href="#what-you-do">What You Do</a>
-          </li>
-          <li>
-            <a href="#your-trainers">Your Trainers</a>
-          </li>
-          <li>
-            <a href="#reach-out">Reach Out</a>
-          </li>
-        </ul>
-     </nav>
-     </header>
-     
-        <!-- "hero/jumbotron"-->
-     <section>
-        
-     </section>
-     
-     <!-- "what we do" section -->
-     <section>
-         <h2>What We Do</h2>
-     </section>
-     
-     <!-- "what you do" section -->
-     <section>
-        <h2>What You Do</h2>
-     </section>
-     
-     <!-- "meet the trainers" section -->
-     <section>
-        <h2>Meet The Trainers</h2>
-     </section>
-     
-     <!-- "reach out" section -->
-     <section>
-        <h2>Reach Out </h2>
-     </section>
-     
-     <!-- footer -->
-     <footer>
-        &#10084;&#65039 Made With Love By Run Buddy
-     </footer>
-     
-     <div>
-        <a href="#">Read Our Privacy Policy</a><br />
-        &copy; 2019 Run Buddy, Inc.
-      </div>
-      
-     
-     </body>
-     </html>
+    <nav>
+
+      <!--Unordered list element-->
+<ul>
+ 
+   <!--List item element-->
+   <li> 
+     <!--Anchor Element-->
+     <a href="#what-we-do/default.asp" target="blank">What We Do</a>
+   </li>
+   <li>
+     <a href="#what-you-do" target="blank">What You Do</a>
+   </li>
+   <li>
+     <a href="#your-trainers" target="blank">Your Trainers</a>
+   </li>
+   <li>
+     <a href="#reach-out" target="blank">Reach Out</a>
+   </li>
+  
+</ul>
+
+    </nav>
+  </div>
+  </header>
+<!-- hero/jumbotron -->
+
+
+<section class="hero">
+  <div>
+    <h3>Get Started Today</h3>
+    <p>Fill out this form and one of our trainers will schedule a consult</p>
+    
+    <!-- Add form element -->
+  <form>
+    <label for="name">Enter full name:</label>
+ <input type="text" placeholder="Your Name" name="name" id="name" />
+    <label for="email">Enter email address:</label>
+ <input type="text" placeholder="Email Address" name="email" id="email" />
+ <label for="phone">Enter a telephone number:</label>
+ <input type="text" placeholder="Phone Number" name="phone" id="phone"/>
+
+ <p>
+  Have you worked out with a trainer before?
+  <input type="radio" name="trainer-confirm" id="trainer-yes" />
+  <label for="trainer-yes">Yes</label>
+  <input type="radio" name="trainer-confirm" id="trainer-no" />
+  <label for="trainer-no">No</label>
+</p>
+<p>
+  <label for="checkbox" >
+    I acknowledge that I am at least 18 years of age.
+  </label>
+  <input type="checkbox" name="age-confirm" id="checkbox" />
+</p>
+<button type="submit">
+  Get running!
+</button>
+  </form>
+
+  </div>
+</section>
+<!-- "what we do" section -->
+<section>
+  <h2>What We Do</h2>
+</section>
+
+<!-- "what you do" section -->
+<section>
+  <h2>What You Do</h2>
+</section>
+
+<!-- "meet the trainers" section -->
+<section>
+  <h2>Meet The Trainers</h2>
+</section>
+
+<!-- "reach out" section -->
+<section>
+  <h2>Reach Out</h2>
+</section>
+
+
+<footer>
+    <h2> ❤️ Made with love by Run Buddy</h2>
+    <div>
+      <a href="#">Read Our Privacy Policy</a><br />
+      &copy; 2019 Run Buddy, Inc.
+    </div>√
+</footer>
+
+</body>
+</html>
