@@ -1,7 +1,14 @@
-## run-buddy
-* A project for the company Run Buddy where the users can visit the site and register and choose a trainer.
-## Built with
+# Run Buddy
+
+## Purpose
+A website that offers fitness training services.
+
+## Built With
 * HTML
 * CSS
-## Website URL: 
-## Contribution : 
+
+## Website
+https://lernantino.github.io/run-buddy/
+
+## Contribution
+Made with ❤️ by [Sindhu]
